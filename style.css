@@ -1,5 +1,152 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-width: 100vw;
+    background-color: papayawhip;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    min-height: 100%;
+}
+
+.heading {
+    color: orchid;
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    display: block;
+}
+
+.description {
+    font-size: larger;
+    margin: 1rem;
+    font-weight: bolder;
+    color: brown;
+    padding: 1rem;
+}
+
+.bill-input-label {
+    display: block;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.bill-input-area {
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 300px;
+    padding: 1rem;
+    border: 3px solid orchid;
+    border-radius: 0.5rem;
+    outline: white;
+}
+
+.nested-div {
+    display: block;
+}
+
+.cash-input-label {
+    display: block;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.cash-input-area {
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 300px;
+    padding: 1rem;
+    border: 3px solid orchid;
+    border-radius: 0.5rem;
+    outline: white;
+}
+
+.btn {
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 110px;
+    padding: 0.6rem 1rem;
+    background-color: orchid;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#bill-amount-error-message,
+#cash-amount-error-message {
+    font-size: larger;
+    margin: 1rem;
+    font-weight: bolder;
+    color: brown;
+    padding: 1rem;
+}
+
+table,
+th,
+td {
+    border: 2px solid orchid;
+    border-collapse: collapse;
+}
+
+.return-table {
+    margin: 1rem auto;
+    width: 50%;
+    text-align: justify;
+}
+
+th {
+    width: 13.5%;
+    padding: 0.5rem;
+}
+
+td {
+    width: 12.35%;
+    padding: 0.5rem;
+}
+
+caption {
+    padding-bottom: 1rem;
+}
+
+.footer-class {
+    bottom: 0;
+    width: 100%;
+    background-attachment: scroll;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+footer p {
+    font-size: larger;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    margin-top: 7px;
+}
+
+.social-icons li {
+    display: inline;
+    list-style-type: none;
+    padding: 7px;
+}
+
+.insta {
+    height: 45px;
 }

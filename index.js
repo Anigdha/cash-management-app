@@ -24,7 +24,7 @@ nextButton.addEventListener("click", () => {
         hideDiv();
     } else {
         hideBillMessage();
-        checkDiv.style.display = "flex";
+        checkDiv.style.display = "block";
         checkButton.addEventListener("click", function validateBillAndCashAmount() {
             if (cashGiven.value >= billAmount.value) {
                 hideCashMessage();
